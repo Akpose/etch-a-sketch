@@ -1,0 +1,51 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.header {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.sketch, .default {
+    border: 2px solid black;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    background: rgb(212, 209, 209);
+}
+
+.sketch:hover, .default:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.grid-space {
+    display: grid;
+    height: 70%;
+    width: 70%;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(212, 209, 209);
+} 
